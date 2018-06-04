@@ -1,9 +1,3 @@
---USE master
---GO
---if exists (select * from sysdatabases where name='ships')
---	DROP DATABASE gallery
---GO
-
 CREATE DATABASE gallery
 GO
 USE gallery
